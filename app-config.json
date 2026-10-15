@@ -7,7 +7,7 @@
     "yieldFactor": 1.8,
     "tariffSmall": 58000,
     "tariffLarge": 46000,
-    "tariffExchange": 52000,
+    "tariffExchange": 110000,
     "landPerMw": 1.5,
     "roofPerKw": 7
   },
