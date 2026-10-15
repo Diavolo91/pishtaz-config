@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "updatedAt": "1405/07/23",
+  "plantCostPerKw": 450000000,
+  "loanRate": 18,
+  "defaults": {
+    "yieldFactor": 1.8,
+    "tariffSmall": 58000,
+    "tariffLarge": 46000,
+    "tariffExchange": 52000,
+    "landPerMw": 1.5,
+    "roofPerKw": 7
+  },
+  "packages": {
+    "eco": 240000000,
+    "plus": 400000000,
+    "silver": 640000000,
+    "gold": 960000000,
+    "platinum": 1600000000
+  }
+}
