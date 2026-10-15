@@ -17,5 +17,13 @@
     "silver": 640000000,
     "gold": 960000000,
     "platinum": 1600000000
+    "defaults": {
+    "yieldFactor": 1.8,
+    "tariffSmall": 58000,
+    "tariffLarge": 46000,
+    "tariffExchange": 54500,
+    "landPerMw": 1.5,
+    "roofPerKw": 7
+  }
   }
 }
