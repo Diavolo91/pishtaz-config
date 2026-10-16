@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "1405/07/23",
+  "version": 4,
+  "updatedAt": "1405/07/24",
   "plantCostPerKw": 450000000,
   "loanRate": 18,
   "defaults": {
@@ -11,19 +11,57 @@
     "landPerMw": 1.5,
     "roofPerKw": 7
   },
+  "finance": {
+    "omPct": 1,
+    "loanPct": 60,
+    "termYears": 5,
+    "graceMonths": 6,
+    "escalation": 0,
+    "degradation": 0.5
+  },
+  "costBreakdown": {
+    "panel": 0.42,
+    "inverter": 0.14,
+    "structure": 0.14,
+    "electrical": 0.14,
+    "installation": 0.16
+  },
+  "invoice": {
+    "vatPct": 10,
+    "discountPct": 0,
+    "validityDays": 7,
+    "notes": "قیمت‌ها بر اساس نرخ روز ارز و تجهیزات تخمینی است. پیش‌پرداخت ۵۰٪ هنگام عقد قرارداد."
+  },
+  "mining": {
+    "btcPerThDay": 0.00000055,
+    "defaultWatt": 3200,
+    "defaultTh": 110
+  },
   "packages": {
     "eco": 240000000,
     "plus": 400000000,
     "silver": 640000000,
     "gold": 960000000,
     "platinum": 1600000000
-    "defaults": {
-    "yieldFactor": 1.8,
-    "tariffSmall": 58000,
-    "tariffLarge": 46000,
-    "tariffExchange": 54500,
-    "landPerMw": 1.5,
-    "roofPerKw": 7
-  }
+  },
+  "panelPrices": {
+    "tongwei-590": 95000000,
+    "tongwei-620": 102000000,
+    "tongwei-715": 118000000,
+    "dah-715": 119000000,
+    "jinko-580": 94000000,
+    "longi-585": 96000000
+  },
+  "inverterPrices": {
+    "huawei-ongrid": 0,
+    "chint-ongrid": 0,
+    "kstar-ongrid": 0,
+    "afore-hybrid": 0,
+    "luxpower-offgrid": 0,
+    "must-offgrid": 0,
+    "voltronic-offgrid": 0,
+    "luxpower-battery": 0,
+    "must-battery": 0,
+    "dyness-battery": 0
   }
 }
